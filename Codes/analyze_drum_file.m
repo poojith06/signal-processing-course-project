@@ -1,4 +1,3 @@
-
 function [analysis_table, odf, time_odf, beat_time_instants, centroid_features] = analyze_drum_file(filename, num_instruments)
 
     WINDOW_SIZE = 1024;
