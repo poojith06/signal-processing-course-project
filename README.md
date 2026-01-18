@@ -12,7 +12,7 @@ In ideal conditions, band-limited signals sampled above the Nyquist rate can be 
 
 Let the continuous-time signal be denoted by (x(t)), sampled with interval (T_s). The ideal discrete-time signal is:
 
-[ x[n] = x(nT_s) ]
+x[n] = x(nT_s)
 
 The following non-ideal cases are considered:
 
@@ -20,13 +20,14 @@ The following non-ideal cases are considered:
 
 The (n)-th sample is not taken exactly at (nT_s), but at a perturbed time instant:
 
-[ \hat{x}[n] = x(nT_s + k_n \Delta) ]
+x̂[n] = x(nT_s + k_n Δ)
 
 where:
 
-* (\Delta = T_s/10)
-* (k_n) is an integer-valued random variable
-* (k_n \in [-K, K]), with (1 \leq K \leq 4)
+* Δ = T_s / 10
+* k_n is an integer-valued random variable
+* k_n ∈ [−K, K], with 1 ≤ K ≤ 4
+
 
 Although the deviation is known for each sample, it varies randomly across samples. The task is to **estimate the ideal samples (x[n])** from the jittered samples (\hat{x}[n]).
 
