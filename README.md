@@ -37,15 +37,19 @@ The performance of the proposed estimation method is **quantified as a function 
 
 #### (b) Missing Samples
 
-In this scenario, sampling occurs at the correct instants, but samples may be missing. Each sample is available with probability (1-p), where:
+In this scenario, sampling occurs at the correct instants, but samples may be missing.
+Each sample is available with probability (1 − p), where:
 
-[ p \in (0,1) ]
+p ∈ (0, 1)
 
 The available samples are:
 
-[ \tilde{x}[n] = x(nT_s) ]
+x̃[n] = x(nT_s)
 
-The objective is to **reconstruct the original signal (x[n])** from incomplete observations. The reconstruction performance is **quantified as a function of the missing probability (p \in (0.01, 0.1))**.
+The objective is to **reconstruct the original signal (x[n])** from incomplete
+observations. The reconstruction performance is **quantified as a function of
+the missing probability (p ∈ (0.01, 0.1))**.
+
 
 ---
 
